@@ -109,14 +109,10 @@ html {
     border-radius: 50%;
 }
 
-.hero-container {
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    position: relative;
-    z-index: 1;
+section.hero {
+    background-image: url('../Color-Rave/img.cat/image.webp');
+    background-repeat: no-repeat;
+    padding: 0px;
 }
 
 .hero-content {
@@ -214,7 +210,9 @@ html {
     transition: all 0.3s ease;
     cursor: pointer;
 }
-
+section.features {
+ margin: 5px #8E32C6;
+}
 .feature-card:hover {
     border-color: #00d4ff;
     background: rgba(0, 212, 255, 0.1);
