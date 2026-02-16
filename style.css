@@ -165,7 +165,7 @@ body {
   padding: 13px 36px;
   border-radius: 999px;
   border: none;
-  background: linear-gradient(135deg, #ff3b8d, #7b3cff);
+  background: #8E32C6;
   color: #ffffff;
   font-weight: 600;
   font-size: 14px;
@@ -531,4 +531,40 @@ div.review-icon{
 }
 .review-text {
   font-size: 24px;
+}
+.footer-contacts p {
+  font-size: 24px;
+  left: 185px;
+}
+.footer-emails  a {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.footer-contacts {
+  margin-bottom: 1px white;
+}
+.footertop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copy {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 185px;
+}
+.footer-logo img {
+  width: 100px;
+  height: 100px;
+  
 }
