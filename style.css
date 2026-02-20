@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Play-fair Display";
   background: #050816;
   color: #ffffff;
   min-height: 100vh;
@@ -300,8 +300,8 @@ body {
 
 .order-inner {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  gap: 40px;
+  /* grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 40px; */
   align-items: flex-start;
 }
 
@@ -518,9 +518,9 @@ section.order {
     justify-content: center;
     align-items: center;
 }
-div.order-inner {
+/* div.order-inner {
   margin-left:500px ;
-}
+} */
 footer {
     background-color: black;
     width: 1521px;
@@ -567,4 +567,90 @@ div.review-icon{
   width: 100px;
   height: 100px;
   
+}
+section.order input{
+  width: 250;
+  height: 250;
+  opacity: 1;
+  top: 2192px;
+  left: 375px;
+  border-radius: 50px;
+
+}
+div.order-inner input{
+  width: 690;
+  height: 60;
+  opacity: 1;
+  top: 2192px;
+  left: 375px;
+  border-radius: 50px;
+  background: #FFFFFF;
+;
+}
+section.order-section {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* background: radial-gradient(circle at center,
+        #00eaff 0%,
+        #003a6b 40%,
+        #00142a 100%
+    ); */
+    background-image: url(img.cat/image\ \(8\).webp);
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 420px;
+    height: 420px;
+
+    background-image: url("leaf-left.png"); /* вставь своё имя файла */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+/* Лист справа */
+body::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 420px;
+    height: 420px;
+
+    background-image: url("leaf-right.png"); /* вставь своё имя файла */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.55;
+    pointer-events: none;
+}
+h1.hero-title {
+  font-size: 200px;
+}
+.cc {
+  font-size: 50px;
+}
+section::backdrop{
+  width: 100%;
+}
+.hero-inner {
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -47,7 +47,10 @@
     <section id="main" class="hero">
       <div class="container hero-inner" >
         <div class="hero-text">
-          <h1 class="hero-title">Your dream Nike</h1>
+          <img src="img.cat/image (1).webp" class="footer-logoimg">
+          <p class="hero-desc cc">C&R</p>
+          <h1 class="hero-title">ColoRave</h1>
+          <h2 class="hero-title">Your dream Nike</h2>
           <p class="hero-desc">
             Do you like any color? We can make it! The best quality paints from the USA.
             A large palette of colors. Durable paint. We can make a custom design for you.
@@ -139,16 +142,59 @@
     </section>
 
     <!-- ORDER -->
-    <section id="order" class="order">
-      <div class="container order-inner">
-        <div class="order-text">
-          
-          <button type="submit" class="btn-primary btn-order">Order my Nike</button>
-        </form>
-      </div>
-      </div>
-      </div>
-    </section>
+   <section class="order-section">
+    <div class="order-overlay"></div>
+
+    <div class="order-card">
+      <h1 class="order-title">Order</h1>
+
+      <form class="order-form" action="#" method="post">
+        <div class="order-row">
+          <input
+            type="email"
+            class="order-input"
+            placeholder="Write your email"
+            required
+          >
+          <button type="button" class="btn btn-confirm">Confirm</button>
+        </div>
+
+        <div class="order-row">
+          <input
+            type="text"
+            class="order-input full"
+            placeholder="Your Country"
+            required
+          >
+        </div>
+
+        <div class="order-row">
+          <input
+            type="text"
+            class="order-input full"
+            placeholder="Your City"
+            required
+          >
+        </div>
+
+        <div class="order-row">
+          <input
+            type="text"
+            class="order-input full"
+            placeholder="Your Address"
+            required
+          >
+        </div>
+
+        <button type="submit" class="btn btn-main">
+          Order my Nike
+        </button>
+      </form>
+    </div>
+  </section>
+
+      
+ 
   </main>
 
   <footer id="contacts" class="footer">
