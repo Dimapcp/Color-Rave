@@ -654,3 +654,10 @@ section::backdrop{
   background-size: cover;
   background-repeat: no-repeat;
 }
+img#hehehe {
+  
+  width: 100%;
+  height: ;
+ display: flex;
+ align-self: center; 
+}
